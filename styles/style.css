@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
+.topper{
+    margin: 0 auto;
+}
+.school-nav{
+    margin: 0 auto;
+}
 nav{
     max-width: 1200px; max-height: 70px;
     margin: 20px 150px 20px 150px; 
@@ -68,7 +72,7 @@ margin-top: 10px;
     display: flex;
     gap: 50px;
     max-width: 1200px; max-height: 574px;
-    margin: 20px 70px 20px 150px; 
+    margin: 0 auto;
     
 }
 .banner-title{
@@ -219,7 +223,7 @@ text-align: center;
 padding-top: 5px;
 }
 .dot{
-    height: 40px;
+    height: 35px;
     width: 40px;
      background: rgb(254, 163, 1);
      text-align: center;
@@ -228,10 +232,50 @@ padding-top: 5px;
     display: inline-block;
  color: white;
  font-size: 1.4rem;
-font-weight: 900;
+font-weight: 1000;
 
 }
 .circle{
     text-align: center;
     margin-top: 80px;
+}
+
+
+/* story */
+
+.our-stories{
+    font-size: 2.9rem;
+font-weight: 700;
+line-height: 57.5px;
+text-align: center;
+
+}
+.stories-container{
+    display: flex;
+justify-content: center;
+margin: 0 auto;
+gap: 15px;
+width: 1160px;
+height: 630px;
+}
+.stories-date{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 150px;
+height: 47px;
+border-radius: 47.93px;
+background: rgb(60, 216, 232);
+border: none;
+color: white;
+
+}
+
+.left-desc{
+    width: 433px;
+height: 75px;
+}
+.btn-story{
+    position: relative;
+    right: 280px;
 }
