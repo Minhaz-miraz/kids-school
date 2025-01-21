@@ -1,1 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav{
+    max-width: 1200px; max-height: 70px;
+    margin: 20px 150px 20px 150px; 
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap:25px;
+}
+.school{
+    margin-left: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schl-tex{
+    margin-top: 20px ;
+    font-size: 2rem;
+font-weight: 700;
+/* line-height: 1.5rem; */
+}
+.home{
+    color: rgb(232, 150, 7);
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+.about{
+    color: rgb(1, 172, 253);
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.Facilities{
+    color: rgb(5, 212, 223);
+    font-size: 1.2rem;
+font-weight: 500;
+line-height: 1.9rem;
+}
+.Admission{
+    color: rgb(93, 88, 239);
+    font-size: 1.1rem;
+font-weight: 500;
+line-height: 1.9rem;
+}
+.bn-contact{
+    width: 150px;
+height: 30px;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+color: white;
+padding: 10px;
+text-align: center;
+margin-right: -130px;
+margin-top: 10px;
+
+}
