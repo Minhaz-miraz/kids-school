@@ -45,7 +45,7 @@ line-height: 1.9rem;
 }
 .Admission{
     color: rgb(93, 88, 239);
-    font-size: 1.1rem;
+    font-size: 1.1rem;content
 font-weight: 500;
 line-height: 1.9rem;
 }
@@ -60,4 +60,48 @@ text-align: center;
 margin-right: -130px;
 margin-top: 10px;
 
+}
+/* banner */
+.banner{
+    display: flex;
+    gap: 50px;
+    max-width: 1200px; max-height: 574px;
+    margin: 20px 70px 20px 150px; 
+    
+}
+.banner-title{
+    margin-top: 7.6rem;
+    margin-bottom: 7.6rem;
+}
+.banner-heading{
+    font-size: 3.9rem;
+font-weight: 700;
+line-height: 3.9rem;
+}
+
+
+.empowering{
+    color: rgb(215, 148, 31);
+}
+.twrdsvission{
+    color: skyblue;
+}
+.banner-fig{
+    width: 250.81px;
+height: 575px;
+padding-left: 160px;}
+
+.banner-desc{
+    color: rgb(17, 17, 17);
+    font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.4rem;
+margin-top: 0px;}
+
+.btn-banner{
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+color: white;
 }
