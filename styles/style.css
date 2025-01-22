@@ -568,10 +568,47 @@ height: 57.5px;line-height: 57.5px;
         width: 358px;
 height: 561.39px;
     }
-    .story-2{
-        width: 173.09px;
-height: 179.59px;
-    }
+    .story-2 > img{
+        width: calc( ( 414px - 2px )/2 );
+height: calc( 300px /2 );
+border-radius: 4px 9.53px 0px 0px;
+padding-left: 90px;
+}
+.story-3 > img{
+        width: calc( ( 414px - 2px )/2 );
+height: calc( 300px /2 );
+border-radius: 9.53px 9.53px 0px 0px;
+}
+ .story-4 > img{
+        width: calc( ( 414px - 2px )/2 );
+height: calc( 300px /2 );
+border-radius: 9.53px 9.53px 0px 0px;
+padding-left: 90px;
+
+}
+.story-5 > img{
+        width: calc( ( 414px - 2px )/2 );
+height: calc( 300px /2 );
+border-radius: 9.53px 9.53px 0px 0px;
+}
+.story-desc{
+    font-size: 1rem;
+font-weight: 700;
+line-height: 17.12px;
+width: 117.92px;
+height: 28.54px;
+}
+.btn-story3{
+    margin-left: 50px;
+    left: -250px;
+}
+.btn-story4{
+    left: 100px;
+    top: -26px;
+}
+.view{
+    margin-left: 100px;
+}
         
     .circle{
         display: none;
@@ -636,4 +673,19 @@ font-weight: 700;
     color: rgb(255, 255, 255);
 font-weight: 700;
 line-height: 26px;
+}
+/* footer-responsive */
+@media screen and (max-width:576px) {
+    .last-container{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .kids-desc{
+        font-size: 1rem;
+font-weight: 400;
+line-height: 20px;
+width: 357px;
+height: 80px;
+    }
+    
 }
