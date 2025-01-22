@@ -150,20 +150,24 @@ hr{
 /* banner */
 .banner{
     display: flex;
-    gap: 50px;
+    gap: 10px;
     max-width: 1200px; max-height: 574px;
     margin: 0 auto;
     
 }
 .banner-title{
-    margin-top: 7.6rem;
-    margin-bottom: 7.6rem;
+   margin-top: 100px;
     font-size: 4rem;
+   
+    width: 640px;
+height: 183px;
 }
 .banner-heading{
     font-size: 3.9rem;
 font-weight: 700;
-line-height: 3.9rem;
+line-height: 61px;
+width: 640px;
+height: 183px;
 }
 
 
