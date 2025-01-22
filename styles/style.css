@@ -67,6 +67,27 @@ margin-right: -130px;
 margin-top: 10px;
 
 }
+marquee{
+    height: 20px;
+    direction: left;
+    background-color: aqua;
+
+}
+/* nav responsive */
+@media screen and (max-width: 576px){
+    
+    .schltex{
+        display: none;}
+    .menu, .bn-contact{
+        display: none;
+    }
+    .schl-bag{
+    margin-left: 10px;
+    margin-right: 90px;
+
+}
+}
+
 /* banner */
 .banner{
     display: flex;
