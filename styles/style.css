@@ -55,9 +55,13 @@ line-height: 1.9rem;
 font-weight: 500;
 line-height: 1.9rem;
 }
+.menu-btn-holder{
+    position: relative;
+    
+  }
 .bn-contact{
-    width: 150px;
-height: 30px;
+    width: 150px;border: none;
+height: 50px;
 border-radius: 12px;
 background: rgb(254, 163, 1);
 color: white;
@@ -65,29 +69,87 @@ padding: 10px;
 text-align: center;
 margin-right: -130px;
 margin-top: 10px;
+z-index: 2;
 
 }
-marquee{
+.menuic{
+    height: 30px;
+    position: relative;
+    right: -70px;
+    bottom: 40px;
+    z-index: 1;
+    /* display: none; */
+}
+.marq-hr-holder{
+    position: relative;
+}
+.marq{
     height: 20px;
     direction: left;
     background-color: aqua;
-
+    position: relative;
+    z-index: 2;
 }
+hr{
+    z-index: 1;
+    position: relative;
+    bottom: 20px;
+}
+
+.for-res{
+    display: none;
+}
+
 /* nav responsive */
 @media screen and (max-width: 576px){
-    
+    .school-nav{
+        display: flex;
+    }
     .schltex{
-        display: none;}
-    .menu, .bn-contact{
         display: none;
     }
-    .schl-bag{
-    margin-left: 10px;
-    margin-right: 90px;
-
+    .menu{
+        display: none;
+    }
+    /* .menu2{
+        padding-right: 400px;
+    } */
+    .bn-contact{
+     display: none;
+    }
+  .schl-bag{
+    margin-left: 70px;
+  }
+  
+  .menuic{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    right: 0px;
+    bottom: 0px;
+  
+  }
+  .marq-hr-holder{
+    max-width: 100vw;
+  }
+  .marq{
+     display: none;
+    }
+    hr{
+        top: 0px;
+    }
 }
-}
 
+    
+  
+   
+    
+    
+    
+    
+   
 /* banner */
 .banner{
     display: flex;
@@ -99,6 +161,7 @@ marquee{
 .banner-title{
     margin-top: 7.6rem;
     margin-bottom: 7.6rem;
+    font-size: 4rem;
 }
 .banner-heading{
     font-size: 3.9rem;
@@ -114,8 +177,8 @@ line-height: 3.9rem;
     color: skyblue;
 }
 .banner-fig{
-    width: 250.81px;
-height: 575px;
+    width: 100%;
+    height: 100%;
 padding-left: 160px;}
 
 .banner-desc{
@@ -132,6 +195,60 @@ border-radius: 12px;
 background: rgb(17, 17, 17);
 color: white;
 }
+ /* banner-responsive */
+
+ @media screen and (max-width:576px) {
+    .banner{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 200px;
+    max-width: 100vw;
+    gap: 10px;
+    
+    }
+    .banner-fig{
+        padding-left: 20px;
+        margin: 0 auto;
+        max-width: 90vw;
+
+    }
+    .banner-fig > img{
+        width: 65%;
+        height: 80%;
+        margin: 0 auto;
+    }
+    .banner-title{
+        margin-top: 0px;
+
+    }
+    .banner-heading{
+        font-size: 2rem;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner-desc{
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 18px;
+        width: 357px;
+height: 54px;
+    }
+    .btn-banner{
+        width: 131px;
+height: 42px;
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 6px 24px 6px 24px;
+margin-left: 100px;
+margin-top: 30px;
+    }
+   
+
+    
+ }
 /* currriculam */
 .curriculam-title{
     color: rgb(0, 0, 0);
@@ -260,6 +377,21 @@ font-weight: 1000;
     text-align: center;
     margin-top: 80px;
 }
+/* curriculam-rsponsive */
+@media screen and (max-width: 576px) {
+    .curriculam-title{
+        font-size: 1.5rem;
+        line-height: 33px;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .curriculam-card-container{
+        flex-direction: column;
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+   
+}
 
 
 /* story */
@@ -273,6 +405,7 @@ text-align: center;
 }
 .stories-container{
     display: flex;
+
 justify-content: center;
 margin: 0 auto;
 gap: 15px;
@@ -410,7 +543,46 @@ left: 760px;
 top: 150px; */
 
     }
-
+/* stories-responsive */
+@media screen and (max-width:576px) {
+    .our-stories{
+        align-items: center;
+        font-size: 1.5rem;
+        width: 390px;
+height: 57.5px;line-height: 57.5px;
+    }
+    .stories-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+    .stories-left{
+        display: none;
+    }
+    .stories-right{
+        max-width: 100vw;
+        margin: 0 auto;
+        width: 358px;
+height: 561.39px;
+    }
+    .story-2{
+        width: 173.09px;
+height: 179.59px;
+    }
+        
+    .circle{
+        display: none;
+    }
+        .our-stories{
+            margin-top: 800PX;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    
+}
     /* footer */
     .kids-edu{
         color: rgb(255, 255, 255);
